@@ -1,6 +1,20 @@
 // index.js - purpose and description here
-// Author: Your Name
-// Date:
+// Author: Sam and Jordan
+// Date: April 24 2024
+
+<pre><code>
+  // Greet the player
+
+  // Prompt the Player to choose rock, paper, or scissors
+
+  // Player selects option
+
+  // The Game selects an opposing option at random
+
+  // The results are calculated as win, lose, or tie
+
+  // The Game displays the score
+  </code></pre>
 
 // Constants
 
