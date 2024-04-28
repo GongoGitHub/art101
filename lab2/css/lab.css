@@ -1,18 +1,26 @@
-h1 {
-      color:rgb(36, 136, 136)
-      font-sizeL 200%
-}
-
-p {
-    font-family: "sans-serif";
-    text-indent: 20px;
-    margin-left: 10px;
-}
-
 #content {
     padding: 10px;
     margin-bottom: 10px;
-    border: solid 10px #6a5acd;
-    background-color: #7b3e9c;
-    color: pink;
-}
+    border: solid 1px #000000;
+    color: #8c98ff;
+    background-color: #00264a;
+  }
+  
+  body {
+  background-color: aqua;
+  }
+  
+  h1 {
+  font-size: 200%;
+  color:black
+  }
+  
+  h2 {
+  font-size: x-large;
+  color:black
+  }
+  
+  p {
+  font-size: large;
+  color: black;
+  }
