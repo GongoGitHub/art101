@@ -5,16 +5,12 @@
   padding: 10px;
   margin-bottom: 10px;
   border: solid 1px #000000;
-  color: #8c98ff;
+  color: #000000;
   background-color: #00264a;
 }
 
 body {
 background-color: aqua;
-}
-.profile-pic {
-margin: 20px;
-max-width: 300px;
 }
 
 h1 {
@@ -23,11 +19,11 @@ color:black
 }
 
 h2 {
-font-size: xx-large;
+font-size: x-large;
 color:black
 }
 
 p {
-font-size: x-large;
+font-size: large;
 color: black;
 }
