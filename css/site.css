@@ -17,7 +17,7 @@ h1 {
   letter-spacing: 5px;
   word-spacing: 5px;
   font-size: 200%;
-  color: rgb(239, 11, 186)
+  color: rgb(0, 0, 0)
 }
 
 /* the hashtag in a CSS selector selects an element by id, e.g., id="content" */
@@ -33,5 +33,5 @@ h1 {
   padding: 10px;
   margin-bottom: 10px;
   border: solid 1px #000000;
-  background-color: #6e7afc;
+  background-color: #00264a;
 }
