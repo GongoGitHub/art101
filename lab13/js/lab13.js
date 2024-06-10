@@ -4,8 +4,7 @@
 
 // given a number and an object that looks like this:
 // {3: "Fizz", 5: "Buzz", 7: "Boom"}
-// loops over the numbers and outputs the number and the matching text
-// for factors
+// loops over the numbers and outputs the number and the matching text for factors
 
 // Get the output element (before any function calls)
 var outputEl = document.getElementById("output");
