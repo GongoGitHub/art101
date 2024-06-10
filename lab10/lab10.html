@@ -2,46 +2,56 @@
 <html>
 <head>
 	<!-- This title is used for tabs and bookmarks -->
-	<title>Lab - </title>
+	<title>Lab 10 - JavaScript for the Web</title>
 
 	<!-- Use UTF character set, a good idea with any webpage -->
-  	<meta charset="UTF-8" />
+	<meta charset="UTF-8" />
 	<!-- Set viewport so page remains consistently scaled w narrow devices -->
-  	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 	
 	<!-- Include a sitewide CSS file for consistent styling across the site -->
 	<link rel="stylesheet" type="text/css" href="../css/site.css">
 	<!-- Lab-specifc CSS file for any special styling of this particular page -->
-	<link rel="stylesheet" type="text/css" href="css/lab.css">
+	<link rel="stylesheet" type="text/css" href="css/lab10.css">
 	
 	<!-- load jQuery library to make javascript easier (must be above our lab js)-->
-	<script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
-	<!-- Link to javascript file - DEFER waits until all elements are rendered -->
-	<script type="text/javascript" src="./js/lab.js" DEFER></script>
+	<script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+		<!-- Link to javascript file - DEFER waits until all elements are rendered -->
+	<script type="text/javascript" src="./js/lab10.js" DEFER></script>
 </head>
 <body>
-	<!-- Style this page by changing the CSS in ../css/site.css or css/lab.css -->
 	<main id="content">
 		<section>
-			<h1>Lab - </h1>
+			<h1>Lab 10 - JavaScript for the Web </h1>
 			<div class="minor-section">
 					<h2>Challenge</h2>
-					<p> </p>
+					<p> This lab challenegd us to experiemtn with DOM manipulation.
+						We created a lab10 index.html, css and js folders in VScode
+						We created a button and assigned random text for the button to
+						generate when clicked on </p>
 			</div>
 
 			<div class="minor-section">
 					<h2>Problems</h2>
-					<p> </p>
+					<p> Getting the button working was very hard. At first they weren't working 
+						as intended, such as only appearing when the page was refreshes. We had to turn 
+						to google eventually, and we got it working, but generated a list rather than replacing
+						the old generated text
+					</p>
 			</div>
 
 			<div class="minor-section">
 					<h2>Reflection</h2>
-					<p> </p>
+					<p> Overall this lab was pretty fun, despite the bumps we had with it.
+						It was fun to be creative with the buttons and experiment.
+					</p>
 			</div>
 
 			<div class="minor-section">
-				<h2> Results</h2>
-				<script src="js/lab.js"></script>
+					<h2> Results</h2>
+					<p> The button now generates a random color </p>
+					<div id="output"></div>
+					<button class="button" id="make-convo">Click Here!</button>
 			</div>
 		</section>
 		<nav id="links">
