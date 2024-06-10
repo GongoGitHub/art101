@@ -1,6 +1,6 @@
-/*
-* Author: Sam Ingraffia
-*/
+// Lab 9 - Libraries and jQuery
+// Author: Sam Ingraffia
+// June 9 2024
 
 // Functions
 $(document).ready(function() {
