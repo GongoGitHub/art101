@@ -2,7 +2,7 @@
 <html>
 <head>
 	<!-- This title is used for tabs and bookmarks -->
-	<title>Lab 10 - JavaScript for the Web</title>
+	<title>Lab 11 - JavaScript Events and Forms</title>
 	
 	<!-- Use UTF character set, a good idea with any webpage -->
 	  <meta charset="UTF-8" />
@@ -12,35 +12,42 @@
 	<!-- Include a sitewide CSS file for consistent styling across the site -->
 	<link rel="stylesheet" type="text/css" href="../css/site.css">
 	<!-- Lab-specifc CSS file for any special styling of this particular page -->
-	<link rel="stylesheet" type="text/css" href="css/lab10.css">
+	<link rel="stylesheet" type="text/css" href="css/lab.css">
 	
 	<!-- load jQuery library to make javascript easier (must be above our lab js)-->
 	<script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
 	<!-- Link to javascript file - DEFER waits until all elements are rendered -->
-	<script type="text/javascript" src="./js/lab10.js" DEFER></script>
+	<script type="text/javascript" src="./js/lab11.js" DEFER></script>
 </head>
 <body>
 	<main id="content">
 		<section>
-			<h1>Lab 11 - </h1>
+			<h1>Lab 11 - JavaScript Events and Forms</h1>
 			<div class="minor-section">
 					<h2>Challenge</h2>
-					<p> </p>
+					<p> This lab challenged us to experiemtn with functions that take the user's input</p>
 			</div>
 
 			<div class="minor-section">
 					<h2>Problems</h2>
-					<p> </p>
+					<p>We had some issues getting the input box to appear, but got it working eventually.
+						this lab was very similar to lab 10 so it was straightforward
+					</p>
 			</div>
 
 			<div class="minor-section">
 					<h2>Reflection</h2>
-					<p> </p>
+					<p> This lab was very good practice working with buttons
+						given that this will be very important for what we want to do in our final project.
+						overall a helpful and simple follow-up to lab 10 </p>
 			</div>
 
 			<div class="minor-section">
 					<h2> Results</h2>
-					<p> </p>
+					<p> The button produces and anagram of the entered username. </p>
+					<div id="output"></div>
+					<input type="text" id="user-name">
+					<button class="button" id="submit">Submit!</button>
 			</div>
 		</section>
 		<nav id="links">
