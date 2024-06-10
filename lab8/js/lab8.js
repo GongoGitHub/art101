@@ -1,6 +1,5 @@
 /*
 * Author: Sam Ingraffia
-* Created: 6 May, 2024
 */
 
 function myCalculation(x) {
