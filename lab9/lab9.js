@@ -17,7 +17,7 @@ $("#results").append("<button id='red-button'>Click Here</button>");
     
     // Color change button for Problems Section
     $("#green-button").click(function() {
-        $("#problems").toggleClass("problems special");
+        $("#problems").toggleClass("problemsspecial");
     })
     
     // Color change button for Reflection Section
